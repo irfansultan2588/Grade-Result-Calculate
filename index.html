@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Student Result Calculate</title>
+  </head>
+  <body>
+   <div class="main">
+    <h1>Student Result Calculate</h1>
+    <form onsubmit="Resultcalculator(); return false;">
+
+         <label for="subject1" class="lab">Enter marks subject 1</label>
+         <input type="number" min="1" max="100" required id="subject1Marks" placeholder="Enter marks subject" class="inp">
+           <br>
+
+         <label for="subject2" class="lab">Enter marks subject 2</label>
+         <input type="number" min="1" max="100" required id="subject2Marks"  placeholder="Enter marks subject" class="inp">
+           <br>
+                 
+         <label for="subject3" class="lab">Enter marks subject 3</label>
+         <input type="number" min="1" max="100" required id="subject3Marks" placeholder="Enter marks subject" class="inp">
+           <br>
+                   
+         <label for="subject4" class="lab">Enter marks subject 4</label>
+         <input type="number" min="1" max="100" required id="subject4Marks" placeholder="Enter marks subject" class="inp">
+           <br>
+                 
+         <label for="subject5" class="lab">Enter marks subject 5</label>
+         <input type="number" min="1" max="100" required id="subject5Marks" placeholder="Enter marks subject" class="inp">
+            <br>
+                   
+         <label for="subject6" class="lab">Enter marks subject 6</label>
+         <input type="number" min="1" max="100" required id="subject6Marks" placeholder="Enter marks subject" class="inp">
+            <br>  
+                          
+          <button type="submit" id="btn">Calculate</button>
+        </form>
+        <h4 id="totalSubjectMarks"> </h4>
+        <h3 id="parsantage"></h3>
+        <h2 id="Grade"></h2>
+       
+   </div>
+      
+
+    <script src="index.js"> </script>
+   
+   
+  </body>
+</html>
